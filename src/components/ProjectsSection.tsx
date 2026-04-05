@@ -1,33 +1,40 @@
 import { motion } from "framer-motion";
-import { Play, ExternalLink, Star } from "lucide-react";
+import { Star } from "lucide-react";
 
 const projects = [
   {
-    title: "Combat System Framework",
-    description: "A modular, server-authoritative combat system with hitbox detection, combo chains, and ragdoll physics. Used in 3 published games with 10M+ visits.",
+    title: "Combat System",
+    description: "A modular, server-authoritative combat system with hitbox detection, combo chains, and ragdoll physics.",
     tags: ["Luau", "Server-Auth", "Physics"],
-    videoId: "s7xxby",
+    videoId: "nk39yf",
     featured: true,
   },
   {
-    title: "Custom Inventory & Trading",
-    description: "Full inventory management system with drag-and-drop UI, real-time trading between players, and DataStore persistence with session locking.",
-    tags: ["UI/UX", "DataStore", "Networking"],
-    videoId: "dQw4w9WgXcQ",
+    title: "Drone System",
+    description: "A fully functional drone system with smooth flight controls, camera follow, and aerial mechanics.",
+    tags: ["Luau", "Physics", "Controls"],
+    videoId: "ylht3w",
     featured: true,
   },
   {
-    title: "Procedural World Generation",
-    description: "Chunk-based terrain generation using Perlin noise with biome systems, LOD rendering, and dynamic entity spawning.",
-    tags: ["Algorithms", "Optimization", "Terrain"],
-    videoId: "dQw4w9WgXcQ",
+    title: "Movement System",
+    description: "Custom character movement framework with advanced locomotion, wall running, and fluid animations.",
+    tags: ["Luau", "Animation", "Physics"],
+    videoId: "xbf2vl",
     featured: false,
   },
   {
-    title: "Admin Dashboard Panel",
-    description: "In-game admin panel with player management, analytics graphs, ban system, and remote event monitoring for live debugging.",
-    tags: ["UI Framework", "Analytics", "Tools"],
-    videoId: "dQw4w9WgXcQ",
+    title: "Voting System",
+    description: "Real-time multiplayer voting system with live UI updates and server-validated vote tracking.",
+    tags: ["UI/UX", "Networking", "Luau"],
+    videoId: "9krsmy",
+    featured: false,
+  },
+  {
+    title: "Mining System",
+    description: "Interactive mining gameplay loop with resource gathering, tool progression, and terrain destruction.",
+    tags: ["Gameplay", "Luau", "Systems"],
+    videoId: "p2ziv1",
     featured: false,
   },
 ];
@@ -75,7 +82,6 @@ const ProjectsSection = () => {
               variants={cardVariants}
               className="group rounded-xl border border-border bg-card overflow-hidden card-hover"
             >
-              {/* Video embed */}
               <div className="relative aspect-video bg-muted overflow-hidden">
                 <iframe
                   src={`https://streamable.com/e/${project.videoId}`}
