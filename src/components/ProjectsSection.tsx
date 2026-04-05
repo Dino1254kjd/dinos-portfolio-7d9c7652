@@ -6,7 +6,7 @@ const projects = [
     title: "Combat System Framework",
     description: "A modular, server-authoritative combat system with hitbox detection, combo chains, and ragdoll physics. Used in 3 published games with 10M+ visits.",
     tags: ["Luau", "Server-Auth", "Physics"],
-    videoId: "dQw4w9WgXcQ",
+    videoId: "s7xxby",
     featured: true,
   },
   {
