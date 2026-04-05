@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Cpu, Database, Gamepad2, Layers, MonitorSmartphone, Zap } from "lucide-react";
+import { Cpu, Gamepad2, Layers, MonitorSmartphone, Zap } from "lucide-react";
 
 const skills = [
   {
