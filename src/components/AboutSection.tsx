@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
-import { Clock, Trophy, Users, Code } from "lucide-react";
+import { Clock, Trophy, Code } from "lucide-react";
 
 const stats = [
   { icon: Clock, value: "3+", label: "Years Experience" },
   { icon: Trophy, value: "20+", label: "Projects Delivered" },
-  { icon: Users, value: "50M+", label: "Players Reached" },
+  
   { icon: Code, value: "100K+", label: "Lines of Luau" },
 ];
 
