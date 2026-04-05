@@ -8,24 +8,19 @@ const skills = [
     description: "Combat, inventory, quests, vehicles, pets — full gameplay loops from scratch.",
   },
   {
+    icon: Layers,
+    title: "Module Systems",
+    description: "Clean, scalable codebases using OOP, Knit/Rojo, and modular service patterns.",
+  },
+  {
     icon: Cpu,
-    title: "Server Architecture",
+    title: "Server Systems",
     description: "Server-authoritative logic, anti-exploit patterns, and optimized remote event handling.",
   },
   {
     icon: MonitorSmartphone,
     title: "UI/UX Design",
     description: "Custom UI frameworks with animations, responsive layouts, and drag-and-drop interfaces.",
-  },
-  {
-    icon: Database,
-    title: "Data Persistence",
-    description: "DataStore2, ProfileService, session locking, data migration, and backup systems.",
-  },
-  {
-    icon: Layers,
-    title: "Module Architecture",
-    description: "Clean, scalable codebases using OOP, Knit/Rojo, and modular service patterns.",
   },
   {
     icon: Zap,

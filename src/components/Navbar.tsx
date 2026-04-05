@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
         <a href="#home" className="flex items-center gap-2 text-primary font-bold text-xl">
           <Code2 className="w-6 h-6" />
-          <span className="text-glow">RblxDev</span>
+          <span className="text-glow">Dino</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">
