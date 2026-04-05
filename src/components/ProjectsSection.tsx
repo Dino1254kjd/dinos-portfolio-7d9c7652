@@ -78,7 +78,7 @@ const ProjectsSection = () => {
               {/* Video embed */}
               <div className="relative aspect-video bg-muted overflow-hidden">
                 <iframe
-                  src={`https://www.youtube.com/embed/${project.videoId}`}
+                  src={`https://streamable.com/e/${project.videoId}`}
                   title={project.title}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
