@@ -27,15 +27,7 @@ const AboutSection = () => {
               <p>
                 I'm a passionate Roblox developer with deep expertise in Luau scripting and game system design.
                 I've built everything from combat frameworks to full economy simulations for games
-                with millions of players.
-              </p>
-              <p>
-                My approach focuses on clean, maintainable code architecture and server-authoritative
-                design patterns that keep games secure and performant at scale.
-              </p>
-              <p>
-                I work with tools like Rojo, Wally, and GitHub for professional workflows, and I'm
-                experienced with both solo development and team collaboration on large-scale projects.
+                with lots of players.
               </p>
             </div>
           </motion.div>
