@@ -75,7 +75,7 @@ const HeroSection = () => {
           <div className="rounded-xl border border-border bg-card/60 backdrop-blur-sm p-4 font-mono text-sm">
             <div className="flex items-center gap-2 mb-3">
               <div className="w-3 h-3 rounded-full bg-destructive/60" />
-              <div className="w-3 h-3 rounded-full bg-yellow-500/60" />
+              <div className="w-3 h-3 rounded-full bg-accent/60" />
               <div className="w-3 h-3 rounded-full bg-primary/60" />
             </div>
             <p className="text-muted-foreground">
