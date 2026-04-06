@@ -37,6 +37,13 @@ const projects = [
     videoId: "p2ziv1",
     featured: false,
   },
+  {
+    title: "Additional System",
+    description: "Another showcase of polished Roblox scripting and gameplay mechanics.",
+    tags: ["Luau", "Systems", "Gameplay"],
+    videoId: "zhbbkk",
+    featured: false,
+  },
 ];
 
 const containerVariants = {
