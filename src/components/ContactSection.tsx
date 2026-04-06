@@ -21,26 +21,6 @@ const ContactSection = () => {
             and team collaborations. Reach out and let's create something amazing.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="https://discord.com/users/1235275778888040593"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-8 py-3 font-semibold text-primary-foreground hover:brightness-110 transition-all duration-200"
-            >
-              <MessageSquare className="w-5 h-5" />
-              Discord
-            </a>
-            <a
-              href="https://www.roblox.com/users/2822100556/profile"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-border bg-secondary px-8 py-3 font-semibold text-secondary-foreground hover:border-primary/40 transition-all duration-200"
-            >
-              <ExternalLink className="w-5 h-5" />
-              Roblox Profile
-            </a>
-          </div>
         </motion.div>
       </div>
     </section>
