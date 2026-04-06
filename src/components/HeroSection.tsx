@@ -29,10 +29,10 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.15 }}
           className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6"
         >
-          <span className="text-foreground">Crafting </span>
-          <span className="text-primary text-glow">Immersive</span>
+          <span className="text-foreground">Dino's </span>
+          <span className="text-primary text-glow">Scripting</span>
           <br />
-          <span className="text-foreground">Game Experiences</span>
+          <span className="text-foreground">Portfolio</span>
         </motion.h1>
 
         <motion.p
@@ -42,7 +42,7 @@ const HeroSection = () => {
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
         >
           Professional Roblox developer specializing in complex game systems,
-          UI frameworks, and performant server-side architecture.
+          UI frameworks, and more.
         </motion.p>
 
         <motion.div
