@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { MessageSquare, ExternalLink } from "lucide-react";
+import { MessageSquare } from "lucide-react";
+import { Button } from "./ui/button";
 
 const ContactSection = () => {
   return (
@@ -21,6 +22,12 @@ const ContactSection = () => {
             and team collaborations. Reach out and let's create something amazing.
           </p>
 
+          <Button asChild size="lg" className="gap-2">
+            <a href="https://discord.com/users/1235275778888040593" target="_blank" rel="noopener noreferrer">
+              <MessageSquare className="w-5 h-5" />
+              Contact on Discord
+            </a>
+          </Button>
         </motion.div>
       </div>
     </section>

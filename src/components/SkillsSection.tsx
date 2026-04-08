@@ -22,11 +22,6 @@ const skills = [
     title: "UI/UX Design",
     description: "Custom UI frameworks with animations, responsive layouts, and drag-and-drop interfaces.",
   },
-  {
-    icon: Zap,
-    title: "Optimization",
-    description: "Micro-profiler analysis, LOD systems, streaming, and memory management for 100+ player servers.",
-  },
 ];
 
 const SkillsSection = () => {
